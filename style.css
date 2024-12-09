@@ -1,0 +1,14 @@
+.img {
+    width: 400px !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+
+div.my-alert-container {
+    margin-left: 50px;
+    width: 400px;
+}

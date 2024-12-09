@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="shortcut icon" href="https://img.freepik.com/premium-photo/obsidian-crystal-background-stone-multicolored-gemstone_134032-18671.jpg" type="image/x-icon">
+    <style>
+        .fullscreen-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        html{
+            color: white;
+            background-image: url('https://img.freepik.com/premium-photo/obsidian-crystal-background-stone-multicolored-gemstone_134032-18671.jpg');
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        button{
+            background-color: black;
+        }
+    </style>
+    <script>
+        function openFullscreen() {
+            const elem = document.documentElement;
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.mozRequestFullScreen) {
+                elem.mozRequestFullScreen();
+            } else if (elem.webkitRequestFullscreen) {
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) {
+                elem.msRequestFullscreen();
+            }
+        }
+
+        function closeFullscreen() {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.mozCancelFullScreen) { /* Firefox */
+                document.mozCancelFullScreen();
+            } else if (document.webkitExitFullscreen) { /* Chrome, Safari & Opera */
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) { /* IE/Edge */
+                document.msExitFullscreen();
+            }
+        }
+
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                openFullscreen();
+            } else {
+                closeFullscreen();
+            }
+        }
+    </script>
+    <script>alert('ready...')</script>
+</head>
+<body>
+    <button class="fullscreen-btn" onclick="openFullscreen()">Fullscreen Mode</button>
+    <button class="fullscreen-btn" onclick="closeFullscreen()">Exit Fullscreen Mode</button>
+    <h1>Apa itu Obsidian?</h1>
+    <p>Pilih Satu Jawaban Yang Benar</p>
+    <ol>
+    <li><button><a href="benar.html">Obsidian adalah jenis kaca vulkanik yang terbentuk dari lava<br>
+                                 yang mendingin dengan sangat cepat, sehingga tidak sempat<br>
+                                 membentuk kristal. Selain sebagai kaca alami, obsidian memiliki<br>
+                                 variasi berdasarkan komposisi kimianya dan kondisi pembentukannya.</a></button></li>
+    <li><button><a href="salah.html">Obsidian adalah jenis kaca vulkanik yang terbentuk dari lava yang<br>
+                                 Panas, sehingga membentuk kristal.</a></button></li>
+    <li><button><a href="salah.html">Selain sebagai Logam alami, obsidian memiliki variasi berdasarkan<br>
+                                 komposisi kimianya dan kondisi pembentukannya.</a></button></li>
+    <li><button><a href="salah.html">Obsidian adalah jenis kaca vulkanik yang terbentuk dari lava yang<br>
+                                 mendingin dengan sangat cepat, sehingga tidak sempat<br>
+                                 membentuk kristal. Selain sebagai kaca alami, obsidian memiliki<br>
+                                 variasi berdasarkan komposisi kimianya dan kondisi pembentukannya.</a></button></li>
+</body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer style="background-image: url(https://i.pinimg.com/736x/32/7e/f9/327ef97d75ab564e6d57bf49be59d681.jpg); text-align: center; color: white">
+    <small>
+        <b>
+        &copy;Copyright 2024 by github.com<br>
+        <br>
+        <br>
+        Hubungi saya <address>muhammadhasan.genju@gmail.com</address>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        </b>
+    </small>
+</footer>    
+</html>
